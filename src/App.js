@@ -9,16 +9,18 @@ import Header from "./Components/Header";
 const App = () => {
   return (
     <React.Fragment>
-      <div className="homepage-container w-full flex flex-col justify-center items-center gap-10">
-        <Header />
-        <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/docs" element={<Docs />} />
-        </Routes>
-      </div>
-      <div className="mobile-view">
-        <h1>iLumnr doesn't work on Mobile</h1>
-      </div>
+      <Router>
+        <div className="homepage-container w-full flex flex-col justify-center items-center gap-10">
+          <Header />
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/docs" element={<Docs />} />
+          </Routes>
+        </div>
+        <div className="mobile-view">
+          <h1>iLumnr doesn't work on Mobile</h1>
+        </div>
+      </Router>
     </React.Fragment>
   );
 };
