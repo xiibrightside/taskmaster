@@ -113,6 +113,7 @@ const Homepage = () => {
           className="string-form w-full flex flex-col justify-center items-center gap-10"
         >
           <input
+            id="main-inputform"
             placeholder={placeholderActive ? "Input The Copied Text" : ""}
             value={inputString}
             onChange={(event) => setInputString(event.target.value)}
