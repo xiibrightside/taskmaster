@@ -2,31 +2,38 @@
 body {
   font-family: "Roboto Mono", monospace;
 }
+/*  */
 .mobile-view {
   display: none;
 }
+
 h1 {
   font-size: 40px;
   font-weight: 700;
   letter-spacing: 2px;
 }
+
 h2 {
   font-size: 25px;
   font-weight: 700;
   letter-spacing: 2px;
 }
+
 input {
   padding: 10px 5px 10px 5px;
   border: 2px solid black;
   outline: none;
   text-align: center;
 }
+
 input:focus {
   border: 2px solid blue;
 }
+
 .iconsnav {
   height: 25px;
 }
+
 .icons {
   height: 20px;
 }
@@ -41,6 +48,7 @@ input:focus {
   .homepage-container {
     display: none;
   }
+
   .mobile-view {
     display: flex;
     justify-content: center;
