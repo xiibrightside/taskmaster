@@ -9,10 +9,10 @@ const Header = () => {
     <React.Fragment>
       <header className="w-full flex flex-row justify-between items-center px-20 py-5">
         <Link to="/">
-          <h1>TASKMASTER</h1>
+          <h1>LISTMASTER</h1>
         </Link>
-
         <div className="flex flex-row gap-14">
+          <Link to="/settings">Settings</Link>
           <Link to="/docs">Docs</Link>
           <a
             href="https://twitter.com/badhackerdotnet"

@@ -2,6 +2,9 @@
 body {
   font-family: "Roboto Mono", monospace;
 }
+header {
+  height: 100px;
+}
 .mobile-view {
   display: none;
 }
@@ -36,7 +39,6 @@ input:focus {
   border: 2px solid blue;
   border-radius: 15px;
 }
-
 @media only screen and (max-width: 1000px) {
   .homepage-container {
     display: none;

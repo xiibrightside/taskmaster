@@ -107,6 +107,7 @@ const Homepage = () => {
 
   return (
     <React.Fragment>
+      <h1>LET IT SPLIT</h1>
       <div className="form-container w-1/2 px-10 flex flex-col justify-center items-center">
         <form
           onSubmit={handleSubmit}
